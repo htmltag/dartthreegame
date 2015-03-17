@@ -1,0 +1,21 @@
+name: Game
+version: 0.0.1
+author: Jonathan Søyland-Lier
+description: A minimal web app for the developer that doesn’t want to be confused by too much going on.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  Characters:
+    path: ../Characters
+  LevelGenerator:
+    path: ../LevelGenerator
+  browser: any
+  script_inliner: '>=0.0.3 <0.1.0'
+  three:
+    path: ../../three.dart-master
+  vector_math:
+    path: ../../vector_math-master
+dev_dependencies:
+  unittest: any
+transformers:
+- script_inliner

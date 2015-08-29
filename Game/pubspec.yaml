@@ -12,9 +12,9 @@ dependencies:
   browser: any
   script_inliner: '>=0.0.3 <0.1.0'
   three:
-    path: ../../three.dart-master
-  vector_math:
-    path: ../../vector_math-master
+    git:
+      ref: master
+      url: git://github.com/threeDart/three.dart.git
 dev_dependencies:
   unittest: any
 transformers:
